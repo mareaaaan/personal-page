@@ -4,7 +4,6 @@
 	--night: #080f0fff;
 	--light-night: #424242;
 	--ash-gray: #a4bab7ff;
-	--darker-ash-gray: lightgray;
 	--white: white;
 	--orange: orange;
 	--auburn: #a52422ff;
@@ -129,6 +128,7 @@ section {
 	justify-content: center;
 	align-items: center;
 	padding: 10px 0px;
+	color: var(--ash-gray);
 }
 
 .footer__icons {
