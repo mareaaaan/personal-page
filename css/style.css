@@ -1,4 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+	--night: #080f0fff;
+	--light-night: #424242;
+	--ash-gray: #a4bab7ff;
+	--darker-ash-gray: lightgray;
+	--white: white;
+	--orange: orange;
+	--auburn: #a52422ff;
+}
+
 #app {
 	width: 100%;
 	height: 100%;
+	background-color: var(--night);
+	font-family: "Roboto", sans-serif;
+	color: var(--white);
+}
+
+.light {
+	background-color: var(--light-night);
+}
+
+.dark {
+	background-color: var(--night);
+}
+
+section {
+	padding: 20px 10%;
+}
+
+.section__text {
+	font-size: 30px;
+}
+
+.section__title {
+	color: var(--auburn);
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0px;
+}
+
+.card__title {
+	color: var(--orange);
+	font-size: 25px;
+	margin-bottom: 5px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.card__list__item__title {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 2px;
+}
+
+.card__list__item__description {
+	color: var(--ash-gray);
+	font-size: 17px;
+}
+
+.card__list__item {
+	margin: 10px 0px;
+}
+
+.welcome {
+	display: flex;
+	justify-content: space-between;
+}
+
+.welcome__text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+
+.welcome__message {
+	font-size: 70px;
+	margin-bottom: 20px;
+}
+
+.welcome__message__name {
+	color: var(--auburn);
+	font-weight: 700;
+}
+
+.welcome__avatar__img {
+	max-width: 300px;
+	border-radius: 50%;
+}
+
+.my-work {
+	display: flex;
+	flex-direction: column;
+}
+
+.skills {
+	text-align: right;
+}
+
+.my-education {
+	display: flex;
+	flex-direction: column;
+}
+
+.my-education-header {
+	display: flex;
+	flex-direction: column;
+}
+
+.university__img {
+	max-width: 300px;
+}
+
+.uni-topics {
+	text-align: right;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0px;
+}
+
+.footer__icons {
+	margin-left: 4px;
+	display: flex;
+	align-items: center;
+}
+
+.social-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

@@ -7,6 +7,7 @@
 
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/animations.css" />
 
 		<link rel="icon" href="/favicon.ico" sizes="any" />
 		<link rel="icon" href="/icon.svg" type="image/svg+xml" />
@@ -19,6 +20,205 @@
 	</head>
 
 	<body>
-		<div id="app"></div>
+		<div id="app">
+			<main class="content">
+				<section class="welcome dark">
+					<div class="welcome__text-container">
+						<p class="welcome__message">
+							Hi, I'm
+							<span class="welcome__message__name">Marian</span>
+						</p>
+						<p class="section__text">
+							22 year old Software Engineer at FactSet
+							<br />
+							Made in Bacau 🇷🇴 ➜ Exported to London 🇬🇧
+						</p>
+					</div>
+					<div class="welcome__avatar">
+						<img
+							src="img/welcome__img.jpg"
+							alt=""
+							class="welcome__avatar__img"
+						/>
+					</div>
+				</section>
+				<section class="my-work light">
+					<h2 class="section__title">My Work</h2>
+
+					<div class="card completed-projects">
+						<h2 class="card__title">Completed Projects:</h2>
+						<ul class="card__list">
+							<li class="card__list__item">
+								<p class="card__list__item__title">Clucker</p>
+								<p class="card__list__item__description">
+									A Twitter clone
+								</p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">Cycles</p>
+								<p class="card__list__item__description">
+									Mobile app to create a guide for tourists in
+									London using rental bikes
+								</p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">Slides</p>
+								<p class="card__list__item__description">
+									Web code editor to create PDF slides writing
+									in markdown
+								</p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">
+									AWS inventory system
+								</p>
+								<p class="card__list__item__description">
+									A set of AWS Lambdas and AWS Batch used to
+									audit all used resources in the organisation
+								</p>
+							</li>
+						</ul>
+					</div>
+
+					<div class="card skills">
+						<h2 class="card__title">
+							Languages and frameworks I use everyday:
+						</h2>
+						<ul class="card__list">
+							<li class="card__list__item">
+								<p class="card__list__item__title">Python</p>
+								<p class="card__list__item__description"></p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">
+									JavaScript
+								</p>
+								<p class="card__list__item__description"></p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">FastAPI</p>
+								<p class="card__list__item__description"></p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">Django</p>
+								<p class="card__list__item__description"></p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">VueJS</p>
+								<p class="card__list__item__description"></p>
+							</li>
+						</ul>
+					</div>
+					<div class="card">
+						<h2 class="card__title">Deep knowledge of:</h2>
+						<ul class="card__list">
+							<li class="card__list__item">
+								<p class="card__list__item__title">
+									Cloud Computing
+								</p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">Databases</p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">
+									Computer and Network architecture
+								</p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">
+									Software architecture
+								</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="my-education light">
+					<h2 class="section__title">My Education</h2>
+					<div class="card">
+						<div class="my-education-header">
+							<h2 class="card__title">
+								Studied Computer Science at:
+							</h2>
+							<img
+								class="university__img"
+								src="img/KCL-logo.png"
+								alt=""
+							/>
+						</div>
+					</div>
+
+					<div class="card uni-topics">
+						<h2 class="card__title">
+							A list of topics covered includes:
+						</h2>
+						<ul class="card__list">
+							<li class="card__list__item">
+								<p class="card__list__item__title">Computing</p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">Logic</p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">
+									Computer and Network architecture
+								</p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">
+									Operating systems
+								</p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">
+									Software Engineering
+								</p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">
+									Machine Learning
+								</p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">
+									Internet Security
+								</p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">
+									Cryptography
+								</p>
+							</li>
+							<li class="card__list__item">
+								<p class="card__list__item__title">
+									Software Architecture
+								</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<!-- <section class="contact"></section> -->
+			</main>
+			<footer class="footer dark">
+				<p>©Nicolae-Marian Gartu</p>
+				<div class="footer__icons">
+					<a
+						class="social-link"
+						href="https://www.linkedin.com/in/nicolae-marian-gartu/"
+					>
+						<img src="img/icons8-linkedin.svg" />
+					</a>
+					<a class="social-link" href="https://github.com/mareaaaan">
+						<img src="img/icons8-github.svg" />
+					</a>
+					<a
+						class="social-link"
+						href="https://www.instagram.com/mareaaaan/"
+					>
+						<img src="img/icons8-instagram.svg" />
+					</a>
+				</div>
+			</footer>
+		</div>
 	</body>
 </html>
